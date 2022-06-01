@@ -1,0 +1,28 @@
+<!-- <p>
+	<a href="{% url 'learning_logs:index' %}">learning_log</a> -
+	<a href="{% url 'learning_logs:topics' %}">Topics</a> -
+	{% if user.is_authenticated %} 
+		Hello, {{ user.username }}.
+		<a href="{% url 'users:logout' %}">log out</a>
+	{% else %}
+		<a href="{% url 'users:register' %}">Register</a> -
+		<a href="{% url 'users:login' %}">Log in</a>
+	{% endif %}
+</p>
+
+{% block content %}{% endblock content %} -->
+
+{% load boodstrap4 %}
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Learnig Log</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light md-4 border"></nav>
+
+</body>
+</html>
